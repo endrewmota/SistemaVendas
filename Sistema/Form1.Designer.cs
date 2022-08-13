@@ -42,7 +42,7 @@
             this.cadastrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(554, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -58,23 +58,26 @@
             // produtosToolStripMenuItem
             // 
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.produtosToolStripMenuItem.Text = "Produtos";
             // 
             // categoriasToolStripMenuItem
             // 
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.categoriasToolStripMenuItem.Text = "Categorias";
             // 
             // btn_cad_produtos
             // 
             this.btn_cad_produtos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cad_produtos.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_cad_produtos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_cad_produtos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_cad_produtos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cad_produtos.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_cad_produtos.ForeColor = System.Drawing.Color.White;
             this.btn_cad_produtos.Image = global::Sistema.Properties.Resources.cad_produtos_40x40;
             this.btn_cad_produtos.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_cad_produtos.Location = new System.Drawing.Point(35, 83);
+            this.btn_cad_produtos.Location = new System.Drawing.Point(12, 45);
             this.btn_cad_produtos.Name = "btn_cad_produtos";
             this.btn_cad_produtos.Size = new System.Drawing.Size(95, 83);
             this.btn_cad_produtos.TabIndex = 1;
@@ -88,7 +91,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Sistema.Properties.Resources.fundo_sistema_azul;
+            this.ClientSize = new System.Drawing.Size(554, 286);
             this.Controls.Add(this.btn_cad_produtos);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
